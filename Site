@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact – Dream Real Estate Company</title>
+<style>
+  body { font-family: 'Open Sans', sans-serif; margin:0; background:#f7f7f7; color:#1A3E5C; }
+  header, footer { background:#1A3E5C; color:#fff; padding:20px; text-align:center; }
+  h1, h2 { font-family: 'Montserrat', sans-serif; font-weight:700; }
+  .container { max-width: 600px; margin: 30px auto; background:#fff; padding: 20px; border-radius:8px; }
+  form label { display: block; margin-top: 10px; }
+  input, textarea { width: 100%; padding: 8px; margin-top: 5px; border-radius: 4px; border: 1px solid #ccc; }
+  button { margin-top: 15px; background:#D4A35F; color:#fff; border:none; padding:10px 20px; border-radius:4px; cursor: pointer; }
+  button:hover { background:#b3873c; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<div class="container">
+  <p><strong>Dream Real Estate Company</strong><br/>
+  Phone: (919) 555-1234<br/>
+  Email: info@soldbydream.com<br/>
+  Address: 123 Dream St, Durham, NC 27701</p>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Dream Real Estate Company | Serving the Triangle Area
+</footer>
+</body>
+</html>
